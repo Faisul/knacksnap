@@ -38,7 +38,7 @@ public class KnackSnap {
 		return (a > b) ? a : b;
 	}
 
-	// Returns the maximum value that can be put in a knapsack of capacity W
+	// Returns the maximum value that can be put in a knapsack of capacity t
 	public int knapSack(int t, int time[], int sVal[], int n) {
 
 		int k[][] = new int[n + 1][t + 1];
